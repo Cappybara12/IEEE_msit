@@ -27,7 +27,7 @@ const RenderExecomSection = ({ list, details }) => {
                                 return (
                                     <div className={`execom_card ${execom_section}`} key={index}>
                                         <div className={`execom_card__image execom_card__image-${execom_section}`}>
-                                            <img src={`https://lh3.googleusercontent.com/d/${execoms.image}=s650`} alt="" />
+                                            <img src={`https://lh3.googleusercontent.com/d/${execoms.image}=s600`} alt="" />
                                             <div className="execom_card__image-linksContainer">
                                                 <span className="execom_card__linkIcons">
                                                     <a href={`mailto:${execoms.email}`}><AiOutlineMail className='linkIcons' title='Email' /></a>
