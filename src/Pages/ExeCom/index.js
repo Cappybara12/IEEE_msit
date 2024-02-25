@@ -39,7 +39,7 @@ const RenderExecomSection = ({ list, details }) => {
                                                 )}
                                                 {(execoms.linkedin) && (
                                                     <span className="execom_card__linkIcons">
-                                                        <a href={execoms.linkedin} target="_blank" rel="noreferrer noopener"><AiOutlineLinkedin className='linkIcons' title='LinkedIn' /></a>
+                                                        <a href={execoms.linkedin} target="_blank" rel="noreferrer noopener"><AiOutlineLinkedin className='linkIcons' title='Linkedin' /></a>
                                                     </span>
                                                 )}
                                                 {(execoms.resume) && (
