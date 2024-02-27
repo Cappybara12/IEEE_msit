@@ -26,7 +26,7 @@ const execomDetailsOptions = [
     },
     {
         execom_section: "wie",
-        section_heading: "IEEE WiE",
+        section_heading: "IEEE WIE",
         heading_color: "#981D97"
     },
     {
