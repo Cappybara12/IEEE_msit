@@ -67,7 +67,12 @@ const execomDetailsOptions = [
     },
     {
         execom_section: "",
-        section_heading: "Sponsorship and Membership Development Committee",
+        section_heading: "Sponsorship Committee",
+        heading_color: "#000000"
+    },
+    {
+        execom_section: "",
+        section_heading: "Membership Development Committee",
         heading_color: "#000000"
     },
     {

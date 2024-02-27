@@ -37,11 +37,13 @@ const RenderExecomSection = ({ list, details }) => {
                                                         <a href={execoms.instagram} target="_blank" rel="noreferrer noopener"><AiOutlineInstagram className='linkIcons' title='Instagram' /></a>
                                                     </span>
                                                 )}
-                                                {(execoms.linkedin) && (
+                                                {(execoms.linkedIn) && (
                                                     <span className="execom_card__linkIcons">
-                                                        <a href={execoms.linkedin} target="_blank" rel="noreferrer noopener"><AiOutlineLinkedin className='linkIcons' title='Linkedin' /></a>
+                                                        <a href={execoms.linkedIn} target="_blank" rel="noreferrer noopener"><AiOutlineLinkedin className='linkIcons' title='LinkedIn' />
+                                                        </a>
                                                     </span>
                                                 )}
+
                                                 {(execoms.resume) && (
                                                     <span className="execom_card__linkIcons">
                                                         <a href={execoms.resume} target="_blank" rel="noreferrer noopener"><AiOutlineFile className='linkIcons' title='Resume' /></a>
@@ -79,11 +81,13 @@ const RenderExecomSection = ({ list, details }) => {
                                                         <a href={execoms.instagram} target="_blank" rel="noreferrer noopener"><AiOutlineInstagram className='linkIcons' title='Instagram' /></a>
                                                     </span>
                                                 )}
-                                                {(execoms.linkedin) && (
+                                                {(execoms.linkedIn) && (
                                                     <span className="execom_card__linkIcons">
-                                                        <a href={execoms.linkedin} target="_blank" rel="noreferrer noopener"><AiOutlineLinkedin className='linkIcons' title='LinkedIn' /></a>
+                                                        <a href={execoms.linkedIn} target="_blank" rel="noreferrer noopener"><AiOutlineLinkedin className='linkIcons' title='LinkedIn' />
+                                                        </a>
                                                     </span>
                                                 )}
+
                                                 {(execoms.resume) && (
                                                     <span className="execom_card__linkIcons">
                                                         <a href={execoms.resume} target="_blank" rel="noreferrer noopener"><AiOutlineFile className='linkIcons' title='Resume' /></a>
@@ -121,11 +125,13 @@ const RenderExecomSection = ({ list, details }) => {
                                                         <a href={execoms.instagram} target="_blank" rel="noreferrer noopener"><AiOutlineInstagram className='linkIcons' title='Instagram' /></a>
                                                     </span>
                                                 )}
-                                                {(execoms.linkedin) && (
+                                                {(execoms.linkedIn) && (
                                                     <span className="execom_card__linkIcons">
-                                                        <a href={execoms.linkedin} target="_blank" rel="noreferrer noopener"><AiOutlineLinkedin className='linkIcons' title='LinkedIn' /></a>
+                                                        <a href={execoms.linkedIn} target="_blank" rel="noreferrer noopener"> <AiOutlineLinkedin className='linkIcons' title='LinkedIn' />
+                                                        </a>
                                                     </span>
                                                 )}
+
                                                 {(execoms.resume) && (
                                                     <span className="execom_card__linkIcons">
                                                         <a href={execoms.resume} target="_blank" rel="noreferrer noopener"><AiOutlineFile className='linkIcons' title='Resume' /></a>
